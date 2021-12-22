@@ -2127,12 +2127,41 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			height: 70%
 		}
 
 			.image.fit img {
 				width: 100%;
+				height: 100%;
+				object-fit: cover;
 			}
 
+		.image.fit_video {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+			height: 50%
+		}
+
+			.image.fit_video img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
+		.image.fit_logo {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+			height: 80%
+		}
+
+			.image.fit_logo img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			
 		.image.avatar {
 			border-radius: 100%;
 		}
