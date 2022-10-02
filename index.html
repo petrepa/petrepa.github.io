@@ -14,6 +14,7 @@ title: petrepa
 	</p>
 </section>
 
+
 <section id="two">
 	<h2>Some of my work</h2>
 	<div class="row">
@@ -37,53 +38,6 @@ title: petrepa
 	</div>
 </section>
 
-<!-- Two -->
-<section id="two">
-	<h2>Some of my work</h2>
-	<div class="row">
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="images/tcpr.gif" class="image fit thumb"><img src="images/tcpr.gif" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/TPRCB" ><span class="label">Toilet Paper Roll Counter Box</span></a></h3>
-			<p>A box to count the number of toilet paper rolls and reporting it to Home Assistant so we're never out of toilet paper</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="https://raw.githubusercontent.com/petrepa/ESPHome-VideoDoorbell/master/Images/finished.jpg" class="image fit thumb"><img src="https://raw.githubusercontent.com/petrepa/ESPHome-VideoDoorbell/master/Images/finished.jpg" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/ESPHome-VideoDoorbell"><span class="label">Video Doorbell</span></a></h3>
-			<p>A cheap video doorbell for Home Assistant with a 3D printed casing to monitor our front door when we have guests coming over.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="images/grow_rack_comaprison.png" class="image fit thumb"><img src="images/grow_rack_comaprison.png" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/Grow-Rack"><span class="label">Grow Rack</span></a></h3>
-			<p>A simple shelf for plants with grow light LEDs.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="images/solder_station.gif" class="image fit thumb"><img src="images/solder_station.gif" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/ESPHome-Solder_Station"><span class="label">Solder Station</span></a></h3>
-			<p>A simple soldering station made smart, so that when you lift the soldering iron off its dock, it turns on and the solder fan and light comes on.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="https://raw.githubusercontent.com/petrepa/ESPHome-AUXswitcher/master/Photos/assembled_box.jpg" class="image fit thumb"><img src="https://raw.githubusercontent.com/petrepa/ESPHome-AUXswitcher/master/Photos/assembled_box.jpg" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/ESPHome-AUXswitcher"><span class="label">AUX Switcher</span></a></h3>
-			<p>A box that automates the switching between PC speakers and headphones.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/HA-Table-Fan"><span class="label">Table Fan</span></a></h3>
-			<p>A cheap table fan that can be fully automated for warm summer days.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/ov_door.png" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/BitBar-OV-door"><span class="label">OV Door Status</span></a></h3>
-			<p>A xbar plugin that checks the <a href="https://omegav.no" ><span class="label">Omega Verksteds</span></a> door to see if they're open or not.</p>
-		</article>
-		<article class="col-6 col-12-xsmall work-item">
-			<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/ha_fetch.png" alt="" /></a>
-			<h3><a href="https://github.com/petrepa/BitBar-HASS-fetch"><span class="label">HA Fetch</span></a></h3>
-			<p>A xbar plugin that can show you sensor state from Home Assistant.</p>
-		</article>
-	</div>
-</section>
-
 <section>
 	<p>
 		If you want to check out more of my work and follow along more closely, 
@@ -92,6 +46,29 @@ title: petrepa
 	<ul class="actions">
 		<li><a href="https://www.github.com/petrepa" class="button">GitHub page</a></li>
 	</ul>
+</section>
+
+<section id="three">
+	<h2>NTNU related</h2>
+	<div class="row">
+		{% for item in site.ntnu_related %}
+		<article class="col-6 col-12-xsmall work-item">
+
+			<a href="{{ item.url }}" class="image fit_video thumb">
+				<img src="{{ item.image_path }}" alt="" />
+			</a>
+
+			<h3>
+				<a href="{{ item.url }}">
+					<span class="label">{{ item.name }}</span>
+				</a>
+			</h3>
+
+			<p>{{ item.description }}</p>
+
+		</article>
+		{% endfor %}
+	</div>
 </section>
 
 <!-- Three -->

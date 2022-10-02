@@ -2,3 +2,9 @@
 collections: 
   some_of_my_work:
     output: true
+    name: Some of my work
+  ntnu_related:
+    output: true
+    name: NTNU related
+
+collections_dir: collections
