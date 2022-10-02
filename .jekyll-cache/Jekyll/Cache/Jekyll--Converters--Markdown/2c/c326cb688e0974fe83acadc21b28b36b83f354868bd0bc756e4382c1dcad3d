@@ -1,0 +1,88 @@
+I"�<h1 id="esphome-doorbell">ESPHome-Doorbell</h1>
+<p>Affordable and easy to make video doorbell for <a href="https://www.home-assistant.io">Home Assistant</a> using <a href="https://www.esphome.io">ESPHome</a>!</p>
+
+<p><img src="Images/finished.jpg" width="100%" /></p>
+
+<p><a href="https://www.buymeacoffee.com/petrepa" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" /></a></p>
+
+<h3 id="features">Features:</h3>
+<ul>
+  <li>No cloud services needed</li>
+  <li>Made with <a href="https://www.esphome.io">ESPHome</a> which makes it easy to code and modify for your needs</li>
+  <li>Illuminated button which makes it easy to see where to press</li>
+  <li>Display which can display your households name or anything really</li>
+  <li>Fisheye lens which gives a wide feild of view</li>
+  <li>Native camera stream into Home Assistant Core</li>
+  <li>Other powerful possibilities with Home Assisntant Core</li>
+</ul>
+
+<h2 id="parts-needed">Parts needed</h2>
+<p>| Part                         | Price   | Comment                                         |
+|——————————|———|————————————————-|
+| LILYGO TTGO T-Camera ESP32   | 15$     | Get the fisheye option!                         |
+| Illuminated Momentary Button | 1$      | Needs to be 12 mm. Pick the color you like. 12V |
+| M3 x 16mm                    | idk     |                                                 |
+| 4 chord wire                 | idk     | A regular Ethernet cable would do               |
+| 12V PSU                      | idk     | I’m sure you have something laying around.      |
+| 3.3V PSU                     | idk     |                                                 |</p>
+
+<p>Since I ended up having much of what I needed already laying around, I do not have a completely full bill of materials. But 16$ + some idk = approx 20$?</p>
+
+<h2 id="how">How</h2>
+<ul>
+  <li>Flash your ESP32. <a href="https://github.com/petrepa/ESPHome-Doorbell/blob/master/esphome_doorbell.yaml">Here is my ESPHome code</a></li>
+  <li>Print the parts. <a href="https://www.thingiverse.com/thing:4227174">Thingiverse</a></li>
+  <li>Solder the connections</li>
+  <li>Assemble</li>
+</ul>
+
+<h2 id="connections">Connections</h2>
+<p>Follow the connection diagram and solder the wires as follows. One note is that you have to mount the button in the case before you solder everything.</p>
+
+<p><img src="Images/connections.png" width="100%" /></p>
+
+<p>IRL examples</p>
+
+<p><img src="Images/btn_rewire.jpg" width="62.5%" /><img src="Images/ethernet_connections.jpg" width="35%" /></p>
+
+<h2 id="assemble">Assemble</h2>
+<ul>
+  <li>Print the parts and assemble your ESP32 in it.</li>
+  <li>Unscrew the fisheye lens before you put the board into the front piece, and screw it back on again.</li>
+  <li>Fasten the button.</li>
+  <li>Thread the cable though the wall where you want to mount your doorbell and thread the cable through the back piece. I tried to seal things off a bit by filling the gap in the back piece with a glue gun.</li>
+  <li>Mount the back piece where you want your doorbell.</li>
+  <li>Make the final connections and fasten the front part of the doorbell to the back piece using the M3 screws. As you can see I used dupont wires to make connecting and disconnecting easy</li>
+</ul>
+
+<p><img src="Images/mounting.jpg" width="100%" /></p>
+
+<h2 id="home-assistant-scripts">Home Assistant Scripts</h2>
+<p>When the doorbell gets pressed <a href="https://github.com/petrepa/ESPHome-Doorbell/blob/master/script_doorbell.yaml">a number of scripts</a> gets activated.</p>
+<ul>
+  <li>TTS gets sent to the Google Homes</li>
+  <li>Our phones gets a notification</li>
+  <li>A snapshot is taken and saved</li>
+  <li>Selected lights flash blue to notify us visually</li>
+</ul>
+
+<h1 id="disclaimer">DISCLAIMER</h1>
+<p>This project is to be considered as a work in progress.</p>
+
+<p>The 3D-printed parts is not a finalized version, and should be improved. I welcome anyone to remix the designs and make this project better.</p>
+
+<p>This revision of the ESPHome-VideoDoorbell is more of a proof of concept. All the pictures were taken the summer of 2019, and the doorbell has survived the Norwegian winter in Trondheim untill now. I haven’t even fastened the front piece to the back piece, but it has still survived.</p>
+
+<h3 id="things-to-improve">Things to improve</h3>
+<ul>
+  <li>3D models should be improved. The back piece should have room for threaded inserts.</li>
+  <li>The push button should be a 3.3V (or something around that) so that the wire going to the doorbell only needs two chords. Then you would also only need one PSU instead of a seperate 12V just for the button.</li>
+  <li>The push button should be a slimmer design. This enables the 3D models to be slimmer and have a lower profile.</li>
+  <li>Some sort of sealing around the exposed parts of the ESP</li>
+</ul>
+
+<h2 id="other">Other</h2>
+<p>Example screenshot of notification</p>
+
+<p><img src="Images/screenshot.png" width="50%" /></p>
+:ET

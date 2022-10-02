@@ -14,6 +14,29 @@ title: petrepa
 	</p>
 </section>
 
+<section id="two">
+	<h2>Some of my work</h2>
+	<div class="row">
+		{% for work in site.some_of_my_work %}
+		<article class="col-6 col-12-xsmall work-item">
+
+			<a href="{{ work.url }}" class="image fit thumb">
+				<img src="{{ work.image_path }}" alt="" />
+			</a>
+
+			<h3>
+				<a href="{{ work.url }}">
+					<span class="label">{{ work.name }}</span>
+				</a>
+			</h3>
+
+			<p>{{ work.description }}</p>
+
+		</article>
+		{% endfor %}
+	</div>
+</section>
+
 <!-- Two -->
 <section id="two">
 	<h2>Some of my work</h2>

@@ -1,0 +1,52 @@
+I"(<h1 id="smartmqtt-table-fan">Smart/MQTT Table Fan</h1>
+
+<h2 id="why">Why</h2>
+<p>For a period it was suddenly extremely warm outside, and therefore warm inside my apartment. I figured that buying a table fan would be the cheapest solution to cool me down, but I could not have a normal table fan. It had to be smart, or able to become smart, with the help of automations. Using <a href="https://github.com/petrepa/Home-AssistantConfig">Home Assistant</a> to controll this, but you can use this with any MQTT service you would like to automate it.
+<img src="https://github.com/petrepa/MQTT-Table-Fan/blob/master/mqtt_fan_photos/HA.png" alt="Home Assistant UI" /></p>
+
+<h2 id="build">Build</h2>
+<p>Built this using:</p>
+<ul>
+  <li><a href="https://www.clasohlson.com/no/Bordvifte/36-6575">Table Fan</a>
+    <ul>
+      <li>The cheapest table fan I could find (149 NOK at the time), which had two speed settings</li>
+    </ul>
+  </li>
+  <li><a href="http://www.nodemcu.com/index_en.html">NodeMCU</a> V3</li>
+  <li><a href="https://www.gearbest.com/5v-relay-_gear/">Relays</a></li>
+  <li>Phone Charger
+    <ul>
+      <li>Regular phone charger I took apart. Took away the USB ports and soldered the 5V directly on the NodeMCU.
+<img src="https://github.com/petrepa/MQTT-Table-Fan/blob/master/mqtt_fan_photos/components.jpg" alt="components" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="build-process">Build process</h3>
+<p>This is the buttons I had to replace with the relays:
+<img src="https://github.com/petrepa/MQTT-Table-Fan/blob/master/mqtt_fan_photos/buttons.jpg" alt="buttons" /></p>
+
+<p>How I planned the components placement in the fan:
+<img src="https://github.com/petrepa/MQTT-Table-Fan/blob/master/mqtt_fan_photos/component_layout.jpg" alt="layout" /></p>
+
+<p>Where I drilled hole to fasten the relays:
+<img src="https://github.com/petrepa/MQTT-Table-Fan/blob/master/mqtt_fan_photos/relayholder.jpg" alt="relayholder" /></p>
+
+<p>Everything ended up fitting within the fan and closed up perfectly.
+<img src="https://github.com/petrepa/MQTT-Table-Fan/blob/master/mqtt_fan_photos/closed.jpg" alt="closed" /></p>
+
+<p>Finished product:
+<img src="https://github.com/petrepa/MQTT-Table-Fan/blob/master/mqtt_fan_photos/assembled.jpg" alt="Assembled" /></p>
+
+<p>I plan to later on make a cover for the holes where the buttons used to be, just to make the product a bit more polished. Maybe find a proper way to mount the fan in the roof or something too.</p>
+<h4 id="changes">Changes</h4>
+<p>Instead of making a cover I decided to put in some buttons to controll the fan manually.
+<img src="https://github.com/petrepa/HA-Table-Fan/blob/master/mqtt_fan_photos/assembled_new.jpg" alt="Assembled" />
+<img src="https://github.com/petrepa/HA-Table-Fan/blob/master/mqtt_fan_photos/buttons_new.jpg" alt="New Buttons" /></p>
+<h2 id="code">Code</h2>
+<p>Wrote the code super quick, so there is definetly room for improvements, and I highly encourage you make some! 
+But if you want to use what I wrote, you can check it our <a href="https://github.com/petrepa/Dooropener/blob/master/dooropener.ino">here</a>!</p>
+
+<h3 id="converting-to-esphome">Converting to ESPHome</h3>
+<p>This project has been converted to ESPHome for better and easier integration with Home Assistant. The yaml can be found <a href="https://github.com/petrepa/HA-Table-Fan/blob/master/table_fan.yaml">here</a>.</p>
+:ET

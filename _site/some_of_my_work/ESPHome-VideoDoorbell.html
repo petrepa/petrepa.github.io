@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Esphome Videodoorbell</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/favicon_io/site.webmanifest">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="/" class="image avatar"><img src="/images/avatar_round.png" alt="" /></a>
+					<h1><strong>Peter Remøy Paulsen</strong></h1>
+					<h1>
+						electrical engineer, <br />
+						developer, <br />
+						home automation enthusiast, <br />
+						tinkerer
+					</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+                <div style="text-align: right;">
+    <a href="https://github.com/petrepa/ESPHome-VideoDoorbell" class="icon brands fa-github"><span class="label">Github</span></a>
+</div>
+
+<h1 id="esphome-doorbell">ESPHome-Doorbell</h1>
+<p>Affordable and easy to make video doorbell for <a href="https://www.home-assistant.io">Home Assistant</a> using <a href="https://www.esphome.io">ESPHome</a>!</p>
+
+<p><img src="Images/finished.jpg" width="100%" /></p>
+
+<p><a href="https://www.buymeacoffee.com/petrepa" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" /></a></p>
+
+<h3 id="features">Features:</h3>
+<ul>
+  <li>No cloud services needed</li>
+  <li>Made with <a href="https://www.esphome.io">ESPHome</a> which makes it easy to code and modify for your needs</li>
+  <li>Illuminated button which makes it easy to see where to press</li>
+  <li>Display which can display your households name or anything really</li>
+  <li>Fisheye lens which gives a wide feild of view</li>
+  <li>Native camera stream into Home Assistant Core</li>
+  <li>Other powerful possibilities with Home Assisntant Core</li>
+</ul>
+
+<h2 id="parts-needed">Parts needed</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Price</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LILYGO TTGO T-Camera ESP32</td>
+      <td>15$</td>
+      <td>Get the fisheye option!</td>
+    </tr>
+    <tr>
+      <td>Illuminated Momentary Button</td>
+      <td>1$</td>
+      <td>Needs to be 12 mm. Pick the color you like. 12V</td>
+    </tr>
+    <tr>
+      <td>M3 x 16mm</td>
+      <td>idk</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4 chord wire</td>
+      <td>idk</td>
+      <td>A regular Ethernet cable would do</td>
+    </tr>
+    <tr>
+      <td>12V PSU</td>
+      <td>idk</td>
+      <td>I’m sure you have something laying around.</td>
+    </tr>
+    <tr>
+      <td>3.3V PSU</td>
+      <td>idk</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Since I ended up having much of what I needed already laying around, I do not have a completely full bill of materials. But 16$ + some idk = approx 20$?</p>
+
+<h2 id="how">How</h2>
+<ul>
+  <li>Flash your ESP32. <a href="https://github.com/petrepa/ESPHome-Doorbell/blob/master/esphome_doorbell.yaml">Here is my ESPHome code</a></li>
+  <li>Print the parts. <a href="https://www.thingiverse.com/thing:4227174">Thingiverse</a></li>
+  <li>Solder the connections</li>
+  <li>Assemble</li>
+</ul>
+
+<h2 id="connections">Connections</h2>
+<p>Follow the connection diagram and solder the wires as follows. One note is that you have to mount the button in the case before you solder everything.</p>
+
+<p><img src="Images/connections.png" width="100%" /></p>
+
+<p>IRL examples</p>
+
+<p><img src="Images/btn_rewire.jpg" width="62.5%" /><img src="Images/ethernet_connections.jpg" width="35%" /></p>
+
+<h2 id="assemble">Assemble</h2>
+<ul>
+  <li>Print the parts and assemble your ESP32 in it.</li>
+  <li>Unscrew the fisheye lens before you put the board into the front piece, and screw it back on again.</li>
+  <li>Fasten the button.</li>
+  <li>Thread the cable though the wall where you want to mount your doorbell and thread the cable through the back piece. I tried to seal things off a bit by filling the gap in the back piece with a glue gun.</li>
+  <li>Mount the back piece where you want your doorbell.</li>
+  <li>Make the final connections and fasten the front part of the doorbell to the back piece using the M3 screws. As you can see I used dupont wires to make connecting and disconnecting easy</li>
+</ul>
+
+<p><img src="Images/mounting.jpg" width="100%" /></p>
+
+<h2 id="home-assistant-scripts">Home Assistant Scripts</h2>
+<p>When the doorbell gets pressed <a href="https://github.com/petrepa/ESPHome-Doorbell/blob/master/script_doorbell.yaml">a number of scripts</a> gets activated.</p>
+<ul>
+  <li>TTS gets sent to the Google Homes</li>
+  <li>Our phones gets a notification</li>
+  <li>A snapshot is taken and saved</li>
+  <li>Selected lights flash blue to notify us visually</li>
+</ul>
+
+<h1 id="disclaimer">DISCLAIMER</h1>
+<p>This project is to be considered as a work in progress.</p>
+
+<p>The 3D-printed parts is not a finalized version, and should be improved. I welcome anyone to remix the designs and make this project better.</p>
+
+<p>This revision of the ESPHome-VideoDoorbell is more of a proof of concept. All the pictures were taken the summer of 2019, and the doorbell has survived the Norwegian winter in Trondheim untill now. I haven’t even fastened the front piece to the back piece, but it has still survived.</p>
+
+<h3 id="things-to-improve">Things to improve</h3>
+<ul>
+  <li>3D models should be improved. The back piece should have room for threaded inserts.</li>
+  <li>The push button should be a 3.3V (or something around that) so that the wire going to the doorbell only needs two chords. Then you would also only need one PSU instead of a seperate 12V just for the button.</li>
+  <li>The push button should be a slimmer design. This enables the 3D models to be slimmer and have a lower profile.</li>
+  <li>Some sort of sealing around the exposed parts of the ESP</li>
+</ul>
+
+<h2 id="other">Other</h2>
+<p>Example screenshot of notification</p>
+
+<p><img src="Images/screenshot.png" width="50%" /></p>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/petrepa" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/petrepa" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.reddit.com/user/petrepa/" class="icon brands fab fa-reddit-alien"><span class="label">Reddit</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/petrepa/" class="icon brands fab fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.youtube.com/petrepa/" class="icon brands fab fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.strava.com/athletes/petrepa" class="icon brands fab fa-strava"><span class="label">Strava</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/petrepa/" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.github.com/petrepa" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: peter.remoy.paulsen@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<!-- THINGIVERSE -->
+					</ul>
+					<ul class="copyright">
+						<h4>@petrepa</h4>
+						<p>Everywhere. Almost.</p>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.poptrox.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>
