@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Esphome Solder_station</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/favicon_io/site.webmanifest">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="/" class="image avatar"><img src="/images/avatar_round.png" alt="" /></a>
+					<h1><strong>Peter Remøy Paulsen</strong></h1>
+					<h1>
+						electrical engineer, <br />
+						developer, <br />
+						home automation enthusiast, <br />
+						tinkerer
+					</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+                <div style="text-align: right;">
+    <a href="https://github.com/petrepa/ESPHome-Solder_Station" class="icon brands fa-github"><span class="label">Github</span></a>
+</div>
+
+<h1 id="esphome-solder-station">ESPHome Solder Station</h1>
+<h3 id="this-is-a-poorly-documented-project-i-am-sorry-for-that-but-i-think-the-idea-and-the-practicallity-of-such-a-setup-is-to-good-to-not-be-shared">This is a poorly documented project, I am sorry for that, but I think the idea and the practicallity of such a setup is to good to not be shared</h3>
+
+<p><img src="https://github.com/petrepa/ESPHome-Solder_Station/blob/master/Images/iron_deploy.gif" alt="iron_deployed" /></p>
+
+<p>This projects gives you four schuko sockets you can controll though <a href="https://home-assistant.io">Home Assistant</a> with <a href="https://esphome.io/">ESPHome</a>.</p>
+
+<p>In addition to power controll, you have a DHT sensor for temperature and humidity, and a binary indication for whether or not the soldering iron is docked in it’s stand.</p>
+
+<p><img src="https://github.com/petrepa/ESPHome-Solder_Station/blob/master/Images/collage.jpg" alt="collage" /></p>
+
+<p>This enables us to make nifty automations making the use of the soldering station feel more exclusive.</p>
+
+<p>This happens when I deploy the soldering iron from its stand:</p>
+<ul>
+  <li>The soldering iron automatically turns on and starts heating</li>
+  <li>The lights above the desk turns on</li>
+  <li>The soldering fan turns on</li>
+</ul>
+
+<p>Whats connected to my station:</p>
+<ol>
+  <li>Soldering Iron</li>
+  <li>Soldering Fan</li>
+  <li>Glue Gun</li>
+  <li><em>Not anything particulary at the moment</em></li>
+</ol>
+
+<p>The glue gun has its own stand</p>
+
+<h2 id="how">How</h2>
+<p>Using a NODEMCU-32S since it has a lot of digital GPIO.</p>
+
+<p>Main concepts:</p>
+<ul>
+  <li>The shucko sockets are connected to a four channel <a href="https://esphome.io/cookbook/relay.html?highlight=relay">relay breakoutboard</a></li>
+  <li><a href="https://esphome.io/components/sensor/dht.html?highlight=dht">DHT sensor</a> connected to GPIO ports. Remember the resistor!</li>
+  <li>The soldering iron dock have a wire screwed into it. This wire is connected to one of the MCUs <a href="https://esphome.io/components/binary_sensor/gpio.html?highlight=gpio">GPIO pins</a>, while the MCUs ground is connected to earth. Since the iron is connected to earth through the soldering station, the GPIO pin will be pulled to the earth when the iron is docked, and this can be read out binary from the pin.</li>
+  <li>Using a USB wall adapter to provide 5V to the MCU and relay breakout board from 230V. This enables you to only connect the entire box to the wall using one power cord.</li>
+  <li>Glue Gun with it’s <a href="https://www.thingiverse.com/thing:4578044">own stand</a> and an embedded push button which tells if the gun is docked or not. Using <a href="https://esphome.io/components/binary_sensor/gpio.html?highlight=gpio">GPIO pins</a>.</li>
+</ul>
+
+<p><img src="https://github.com/petrepa/ESPHome-Solder_Station/blob/master/Images/glue_gun_collage.png" alt="glue_gun" /></p>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/petrepa" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/petrepa" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.reddit.com/user/petrepa/" class="icon brands fab fa-reddit-alien"><span class="label">Reddit</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/petrepa/" class="icon brands fab fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.youtube.com/petrepa/" class="icon brands fab fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.strava.com/athletes/petrepa" class="icon brands fab fa-strava"><span class="label">Strava</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/petrepa/" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.github.com/petrepa" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: peter.remoy.paulsen@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<!-- THINGIVERSE -->
+					</ul>
+					<ul class="copyright">
+						<h4>@petrepa</h4>
+						<p>Everywhere. Almost.</p>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.poptrox.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,1 +1,16 @@
-theme: jekyll-theme-cayman
+
+collections: 
+  some_of_my_work:
+    output: true
+    name: Some of my work
+  ntnu_related:
+    output: true
+    name: NTNU related
+  honourable_mentions:
+    output: true
+    name: Honourable Mentions
+  favorites:
+    output: true
+    name: My Favorite Open Source Projects
+
+collections_dir: collections

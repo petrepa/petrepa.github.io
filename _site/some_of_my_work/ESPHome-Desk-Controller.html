@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Esphome Desk Controller</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/favicon_io/site.webmanifest">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="/" class="image avatar"><img src="/images/avatar_round.png" alt="" /></a>
+					<h1><strong>Peter Remøy Paulsen</strong></h1>
+					<h1>
+						electrical engineer, <br />
+						developer, <br />
+						home automation enthusiast, <br />
+						tinkerer
+					</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+                <div style="text-align: right;">
+    <a href="https://github.com/petrepa/ESPHome-Desk-Controller/" class="icon brands fa-github"><span class="label">Github</span></a>
+</div>
+
+<h1 id="desk-controller-for-esphome">Desk Controller for ESPHome</h1>
+<p>Simple desk controller for controlling volume of a media player and four buttons used for anything. Powered by <a href="https://esphome.io/">ESPHome</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Front</th>
+      <th>Top</th>
+      <th>Back</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/front.jpg" alt="Front" /></td>
+      <td><img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/top.jpg" alt="Top" /></td>
+      <td><img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/back.jpg" alt="Back" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Rotary knob to controll volume of media player
+    <ul>
+      <li>Rotary knob can mute or play/pause media player</li>
+    </ul>
+  </li>
+  <li>Four buttons which can do what ever you want</li>
+  <li>Sleek design</li>
+</ul>
+
+<p><a href="https://twitter.com/petrepa/status/1492845262397747200?s=20&amp;t=XrHxkKNUZLxyN6M17T5Kxw">Tweet thread showing of some of the features</a></p>
+
+<h1 id="parts-needed">Parts needed</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>#</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wemos D1 Mini</td>
+      <td>1 pcs</td>
+      <td>ESP8266 development board</td>
+    </tr>
+    <tr>
+      <td>Rotary encoder module</td>
+      <td>1 pcs</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Keyboard switches</td>
+      <td>4 pcs</td>
+      <td>I am using Cherry MX Greens clicky tactile</td>
+    </tr>
+    <tr>
+      <td>Key caps</td>
+      <td>4 pcs</td>
+      <td>I used some spares from a Keychron K2 keyboard</td>
+    </tr>
+    <tr>
+      <td>Wires</td>
+      <td>N.A.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>M3 6 mm screw</td>
+      <td>4 pcs</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>M3 nut</td>
+      <td>4 pcs</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="pinout">Pinout</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Wemos D1 Mini</th>
+      <th>Rotary Encoder</th>
+      <th>Buttons</th>
+      <th>Cable color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3V3</td>
+      <td>VCC</td>
+      <td> </td>
+      <td>Red</td>
+    </tr>
+    <tr>
+      <td>GND</td>
+      <td>GND</td>
+      <td>Button 1/2/3/4</td>
+      <td>Black</td>
+    </tr>
+    <tr>
+      <td>D1</td>
+      <td> </td>
+      <td>Button 1</td>
+      <td>Yellow</td>
+    </tr>
+    <tr>
+      <td>D2</td>
+      <td> </td>
+      <td>Button 2</td>
+      <td>Purple</td>
+    </tr>
+    <tr>
+      <td>D3</td>
+      <td> </td>
+      <td>Button 3</td>
+      <td>Blue</td>
+    </tr>
+    <tr>
+      <td>D4</td>
+      <td> </td>
+      <td>Button 4</td>
+      <td>Green</td>
+    </tr>
+    <tr>
+      <td>D5</td>
+      <td>PIN A (CLK)</td>
+      <td> </td>
+      <td>Yellow</td>
+    </tr>
+    <tr>
+      <td>D6</td>
+      <td>Button (SW)</td>
+      <td> </td>
+      <td>Green</td>
+    </tr>
+    <tr>
+      <td>D7</td>
+      <td>PIN B (DT)</td>
+      <td> </td>
+      <td>Blue</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/wiring_diagram.png" alt="Wiring Diagram" /></p>
+
+<h1 id="how">How</h1>
+<ol>
+  <li>Print the <a href="https://github.com/petrepa/ESPHome-Desk-Controller/tree/main/models">parts</a>. Insert the M3 nuts into the 3D printed lid.</li>
+  <li>Solder components. Do not solder the wires to the keyboard switches before you have inserted the switches into the 3D printed parts. Try to use as short wires as you can to make everything fit in the case</li>
+  <li>Flash Wemos with the <a href="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/desk-controller.yaml">ESPHome code</a></li>
+  <li>Assemble everything. Fasten the rotary knob to the lid. Put a dab of glue on the Wemos ESP8266 chip to fasten it to the case (super glue should do it). Put on the rotary knob and put on your wanted</li>
+</ol>
+
+<h2 id="photos">Photos</h2>
+<p><img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/nut.jpeg" alt="Insert nut" />
+<img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/wiring.png" alt="Complete wiring" />
+<img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/wire_tucking.png" alt="Wire tucking" />
+<img src="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/media/without_caps.jpg" alt="Without knob and caps" /></p>
+
+<h1 id="notes">Notes</h1>
+<p>Muting and unmuting a Sonos media player requires a bit of templating. <a href="https://github.com/petrepa/ESPHome-Desk-Controller/blob/main/sonos_mute_toggle.yaml">This script takes care of that</a></p>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/petrepa" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/petrepa" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.reddit.com/user/petrepa/" class="icon brands fab fa-reddit-alien"><span class="label">Reddit</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/petrepa/" class="icon brands fab fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.youtube.com/petrepa/" class="icon brands fab fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.strava.com/athletes/petrepa" class="icon brands fab fa-strava"><span class="label">Strava</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/petrepa/" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.github.com/petrepa" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: peter.remoy.paulsen@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<!-- THINGIVERSE -->
+					</ul>
+					<ul class="copyright">
+						<h4>@petrepa</h4>
+						<p>Everywhere. Almost.</p>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.poptrox.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>

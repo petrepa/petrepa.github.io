@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Esphome Auxswitcher</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+		<link rel="manifest" href="/favicon_io/site.webmanifest">
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="/" class="image avatar"><img src="/images/avatar_round.png" alt="" /></a>
+					<h1><strong>Peter Remøy Paulsen</strong></h1>
+					<h1>
+						electrical engineer, <br />
+						developer, <br />
+						home automation enthusiast, <br />
+						tinkerer
+					</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+                <div style="text-align: right;">
+    <a href="https://github.com/petrepa/ESPHome-AUXswitcher" class="icon brands fa-github"><span class="label">Github</span></a>
+</div>
+
+<h1 id="esphome-auxswitcher">ESPHome-AUXswitcher</h1>
+<p>Built a AUX switcher for my desktop to switch between the headphones and speakers automatically through Home Asisstant using ESPHome.</p>
+
+<p>The basic idea is that a 2-channel relay board switches between the two AUX ports by connecting the incoming audio signal to the COM of the relays, and then connecting one of the outgoing signals to NC, while the other outgoing signal is connected to NO. By turning both the relays on or off, the signal will then switch between the outgoing signals.</p>
+
+<p>I also built a spool attached to a stepper motor that could pull the headphone cable in from under the table. The idea was that the cable should be pulled in before our robotic vacuum cleaner started cleaning to avoid her being caught up in the cable. This feature turned out to be a gimmick and not very practical. I ended up just finding the perfect length for the headphone cable, so that it reached my head perfectly fine, and don’t go onto the floor when it’s on its hook.</p>
+
+<p>The box are prepared for M3 screw inserts that can be melted into place using a soldering iron. I also glued a piece of rubber band to where the lip of the lid will be to make the lid be a more snug fit, while still have the possibility of being compressable so that the lid can be removed easily if wanted.
+<img src="https://github.com/petrepa/ESPHome-AUXswitcher/blob/master/Photos/box_preperations.jpg" alt="box_preparations" />
+Every component can then be screwed to its place in the box. 
+From left to right we have: voltage regulator (used to step down 12V to 5V for the components needing this voltage), stepper motor driver (which is not really needed, so this can be dropped), a perfboard for the NODEMCU-32S so that the MCU can be switched easily (also makes it easier to solder on the underside of the perfboard) and lastely the 2-channel relay board controlling where the audio signal goes.
+<img src="https://github.com/petrepa/ESPHome-AUXswitcher/blob/master/Photos/box_components.jpg" alt="box_components" />
+Fully assembled box with all its connections. I forgot to design a opening for the stepper motor wires, so I just used a file to make a notch in the space between the box and the lid. Since I wouldn’t recommend using a stepper motor at all, this won’t be a problem.
+<img src="https://github.com/petrepa/ESPHome-AUXswitcher/blob/master/Photos/assembled_box.jpg" alt="assembled_box" />
+The headset holder is meant to be placed under your desk onto a drawer or something. It uses a large push switch.
+<img src="https://github.com/petrepa/ESPHome-AUXswitcher/blob/master/Photos/assembeld_headset_holder.jpg" alt="assembled_headset_holder" />
+The headset fits nicely and can easily be plugged into the box using banana plugs. 
+<img src="https://github.com/petrepa/ESPHome-AUXswitcher/blob/master/Photos/headsett_holder.jpg" alt="headset_holder" /></p>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/petrepa" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/petrepa" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.reddit.com/user/petrepa/" class="icon brands fab fa-reddit-alien"><span class="label">Reddit</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/petrepa/" class="icon brands fab fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.youtube.com/petrepa/" class="icon brands fab fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.strava.com/athletes/petrepa" class="icon brands fab fa-strava"><span class="label">Strava</span></a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/petrepa/" class="icon brands fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.github.com/petrepa" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: peter.remoy.paulsen@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<!-- THINGIVERSE -->
+					</ul>
+					<ul class="copyright">
+						<h4>@petrepa</h4>
+						<p>Everywhere. Almost.</p>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.poptrox.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>
