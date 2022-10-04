@@ -1,4 +1,4 @@
-I"9<h1 align="center">
+I"I<h1 align="center">
   Measuring Quality of Experience  <br />
   using Augmented Reality 
   in Training Systems
@@ -17,7 +17,7 @@
 
 <p>We took a deeper look into realism in AR, and tried to figure out what the level of occlusion has to say for the Quailty of Experience for the user in an augmented reality system.</p>
 
-<p><a href="https://github.com/petrepa/TFE4580/blob/master/TFE4580_peterrp_final_report.pdf">Complete report can be found here.</a></p>
+<p><a href="https://raw.githubusercontent.com//petrepa/TFE4580/blob/master/TFE4580_peterrp_final_report.pdf">Complete report can be found here.</a></p>
 
 <h2 id="description">Description</h2>
 <p>To test if occlusion can have anything to say, we built an augmented reality app using Unity and ARCore.</p>
