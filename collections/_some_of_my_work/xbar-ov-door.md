@@ -1,4 +1,4 @@
----
+](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/---
 layout: work
 name:  XBar Omega Verksted door status
 more_info_link: https://github.com/petrepa/BitBar-OV-door
