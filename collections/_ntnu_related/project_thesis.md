@@ -1,4 +1,4 @@
-](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/---
+---
 layout: work 
 name: TFE4580 Project thesis
 more_info_link: https://github.com/petrepa/TFE4580

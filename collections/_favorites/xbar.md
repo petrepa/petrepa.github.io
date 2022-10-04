@@ -1,4 +1,4 @@
-](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/---
+---
 layout: redirect
 name: xbar
 more_info_link: https://github.com/matryer/xbar

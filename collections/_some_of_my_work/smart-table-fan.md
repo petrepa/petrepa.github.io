@@ -1,4 +1,4 @@
-](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/](https://raw.githubusercontent.com/---
+---
 layout: work
 name: Smart Table Fan
 more_info_link: https://github.com/petrepa/HA-Table-Fan
