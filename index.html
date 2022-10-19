@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: default
 title: petrepa
 ---
 <!-- One -->
@@ -8,12 +8,14 @@ title: petrepa
 		<h2>Hi, I'm Peter.<br />
 	</header>
 	<p>
-		I am a developer working with data intelligence at <a href="https://brilliant.no/" ><span class="label">Brilliant</span></a> in Trondheim, Norway. 
-		Recently I finished my master theisis in <a href="https://www.ntnu.no/studier/mtelsys" ><span class="label">Master of Science in Electronic Systems Design</span></a> within signal processing and communication.
+		I am a developer working with data intelligence at <a href="https://brilliant.no/"><span
+				class="label">Brilliant</span></a> in Trondheim, Norway.
+		Recently I finished my master thesis in <a href="https://www.ntnu.no/studier/mtelsys"><span class="label">Master
+				of Science in Electronic Systems Design</span></a> within signal processing and communication.
 		In my spare time I'm a tinkerer, playing with home automation and you bet I always have a project going.
 	</p>
 	<p>
-		If you want to check out more of my work and follow along more closely, 
+		If you want to check out more of my work and follow along more closely,
 		check out my socials as I post more regularly there.
 	</p>
 </section>
@@ -48,15 +50,15 @@ title: petrepa
 		{% for item in site.ntnu_related %}
 		<article class="col-6 col-12-xsmall work-item">
 			{% if item.layout == "redirect" %}
-				{% assign url = item.more_info_link %}
+			{% assign url = item.more_info_link %}
 			{% else %}
-				{% assign url = item.url %}
+			{% assign url = item.url %}
 			{% endif %}
 
 			<a href="{{ url }}" class="image fit_video thumb">
 				<img src="{{ item.image_path }}" alt="" />
 			</a>
-			
+
 			<h3>
 				<a href="{{ url }}">
 					<span class="label">{{ item.name }}</span>
@@ -72,56 +74,56 @@ title: petrepa
 
 <!-- Four -->
 <section id="four">
-<h2>Honourable Mentions</h2>
-<div class="row">
-	{% for item in site.honourable_mentions %}
-	<article class="col-6 col-12-xsmall work-item">
-		{% if item.layout == "redirect" %}
+	<h2>Honourable Mentions</h2>
+	<div class="row">
+		{% for item in site.honourable_mentions %}
+		<article class="col-6 col-12-xsmall work-item">
+			{% if item.layout == "redirect" %}
 			{% assign url = item.more_info_link %}
-		{% else %}
+			{% else %}
 			{% assign url = item.url %}
-		{% endif %}
+			{% endif %}
 
-		<a href="{{ url }}" class="image fit_video thumb">
-			<img src="{{ item.image_path }}" alt="" />
-		</a>
-		
-		<h3>
-			<a href="{{ url }}">
-				<span class="label">{{ item.name }}</span>
+			<a href="{{ url }}" class="image fit_video thumb">
+				<img src="{{ item.image_path }}" alt="" />
 			</a>
-		</h3>
 
-		<p>{{ item.description }}</p>
+			<h3>
+				<a href="{{ url }}">
+					<span class="label">{{ item.name }}</span>
+				</a>
+			</h3>
 
-	</article>
-	{% endfor %}
+			<p>{{ item.description }}</p>
+
+		</article>
+		{% endfor %}
 </section>
 
 <!-- Five -->
 <section id="five">
-<h2>My Favorite Open Source Projects</h2>
-<div class="row">
-	{% for item in site.favorites %}
-	<article class="col-6 col-12-xsmall work-item">
-		{% if item.layout == "redirect" %}
+	<h2>My Favorite Open Source Projects</h2>
+	<div class="row">
+		{% for item in site.favorites %}
+		<article class="col-6 col-12-xsmall work-item">
+			{% if item.layout == "redirect" %}
 			{% assign url = item.more_info_link %}
-		{% else %}
+			{% else %}
 			{% assign url = item.url %}
-		{% endif %}
+			{% endif %}
 
-		<a href="{{ url }}" class="image fit_logo thumb">
-			<img src="{{ item.image_path }}" alt="" />
-		</a>
-		
-		<h3>
-			<a href="{{ url }}">
-				<span class="label">{{ item.name }}</span>
+			<a href="{{ url }}" class="image fit_logo thumb">
+				<img src="{{ item.image_path }}" alt="" />
 			</a>
-		</h3>
 
-		<p>{{ item.description }}</p>
+			<h3>
+				<a href="{{ url }}">
+					<span class="label">{{ item.name }}</span>
+				</a>
+			</h3>
 
-	</article>
-	{% endfor %}
+			<p>{{ item.description }}</p>
+
+		</article>
+		{% endfor %}
 </section>
