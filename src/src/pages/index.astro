@@ -1,13 +1,13 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../components/FormattedDate.astro';
+import { getCollection } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+const posts = (await getCollection("blog")).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
@@ -88,35 +88,82 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>🧑‍🚀 Peter Remøy Paulsen</h1>
 			<p>
-				I am a hardware engineer at <a href="https://scoutdi.com/"><span
-						class="label">ScoutDI</span></a> in Trondheim, Norway.
-				I have a <a href="https://www.ntnu.no/studier/mtelsys"><span class="label">Master
-						of Science in Electronic Systems Design</span></a> within signal processing and communication.
-				I previously worked at <a href="https://alvaindustries.com/"><span
-					class="label">Alva Industries</span></a> as a testing engineer, <a href="https://brilliant.no"><span class="label">Brilliant</span></a> as a developer
-				and during my studies I worked at <a href="https://norbit.com/subsea"><span class="label">Norbit Subsea</span></a> as a project engineer.
+				I'm part of the hardware engineering team at <a
+					href="https://scoutdi.com/"
+					target="_blank"><span class="label">ScoutDI</span></a
+				> in Trondheim, Norway. I've got a <a
+					href="https://www.ntnu.no/studier/mtelsys"
+					target="_blank"
+					><span class="label"
+						>Master's in Electronic Systems Design</span
+					></a
+				>, with a knack for signal processing and communication. Before
+				this, I was testing out cool stuff at <a
+					href="https://alvaindustries.com/"
+					target="_blank"
+					><span class="label">Alva Industries</span></a
+				>, building things at <a
+					href="https://brilliant.no"
+					target="_blank"><span class="label">Brilliant</span></a
+				>, and during my student days, I got my hands dirty with some
+				project work at <a
+					href="https://norbit.com/subsea"
+					target="_blank"><span class="label">Norbit Subsea</span></a
+				>.
 			</p>
 			<p>
-				In my spare time I'm a tinkerer and maker, playing with home automation, electronics, mechanics and wood working. I always have a project going.
+				When I'm not working, you'll probably find me in my office,
+				messing around with home automation, 3D printing, electronics,
+				or some woodworking project. I like keeping my hands busy and my
+				mind creative.
 			</p>
 			<p>
-				If you want to check out more of my work and follow along more closely,
-				check out my socials as I post more regularly there.
+				If you're curious about what I'm up to, or just want to see some
+				of my work, feel free to check out my socials. I post there more
+				often and it's a good way to stay in touch.
 			</p>
+
 			<section>
 				<ul>
 					{
 						posts.map((post) => (
 							<li>
-								<a href={`/blog/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
+								{post.data.moreInfoLink ? (
+									<a
+										href={post.data.moreInfoLink}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											width={720}
+											height={360}
+											src={post.data.heroImage}
+											alt=""
+										/>
+										<h4 class="title">{post.data.title}</h4>
+										<p class="date">
+											<FormattedDate
+												date={post.data.pubDate}
+											/>
+										</p>
+									</a>
+								) : (
+									<a href={`/blog/${post.slug}/`}>
+										<img
+											width={720}
+											height={360}
+											src={post.data.heroImage}
+											alt=""
+										/>
+										<h4 class="title">{post.data.title}</h4>
+										<p class="date">
+											<FormattedDate
+												date={post.data.pubDate}
+											/>
+										</p>
+									</a>
+								)}
 							</li>
 						))
 					}
