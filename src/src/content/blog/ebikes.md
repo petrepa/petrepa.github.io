@@ -1,8 +1,8 @@
 ---
-title: My Custom eBike builds
+title: My Retrovelo eBike
 heroImage: https://github-production-user-asset-6210df.s3.amazonaws.com/30476405/279075871-967aeb4c-85ff-4316-9950-f77b306fd059.jpg
 description: Some parts of my ebike building experiences
-pubDate: 'September 2019'
+pubDate: 'May 2022'
 ---
 
 ## Riding a Boosted Board in Trondheim 🏄‍♂️
