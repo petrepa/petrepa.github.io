@@ -1,7 +1,6 @@
 ---
 title: My Kona Minute eBike
-heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/69383c62-027c-4a7c-b97f-28f305e316d4
-
+heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/773ccf29-91bf-4ec2-aca5-1ef54375a4a2
 description: Transforming a Kona Minute into a perfect cargo eBike
 pubDate: 'December 2023'
 ---
