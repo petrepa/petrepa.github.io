@@ -234,6 +234,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"kona-minute.md": {
+	id: "kona-minute.md";
+  slug: "kona-minute";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "mac-apps.md": {
 	id: "mac-apps.md";
   slug: "mac-apps";
