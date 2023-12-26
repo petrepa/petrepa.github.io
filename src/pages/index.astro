@@ -89,6 +89,23 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
 			}
+			.icon-grid {
+				display: flex;
+				flex-direction: column;
+			}
+			.icon-row {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding-bottom: 3em;
+			}
+			.icon-row a {
+				padding-left: 1em;
+				padding-right: 1em;
+			}
+			.icon-row a i {
+				font-size: 1.5em;
+			}
 			@media (max-width: 720px) {
 				ul {
 					gap: 0.5em;
@@ -109,42 +126,64 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<p>
-				I'm part of the hardware engineering team at <a
-					href="https://scoutdi.com/"
-					target="_blank"><span class="label">ScoutDI</span></a
-				> in Trondheim, Norway. I've got a <a
-					href="https://www.ntnu.no/studier/mtelsys"
-					target="_blank"
-					><span class="label"
-						>Master's in Electronic Systems Design</span
-					></a
-				>, with a knack for signal processing and communication. Before
-				this, I was testing out cool stuff at <a
-					href="https://alvaindustries.com/"
-					target="_blank"
-					><span class="label">Alva Industries</span></a
-				>, building things at <a
-					href="https://brilliant.no"
-					target="_blank"><span class="label">Brilliant</span></a
-				>, and during my student days, I got my hands dirty with some
-				project work at <a
-					href="https://norbit.com/subsea"
-					target="_blank"><span class="label">Norbit Subsea</span></a
-				>.
-			</p>
-			<p>
-				When I'm not working, you'll probably find me in my office,
-				messing around with home automation, 3D printing, electronics,
-				or some woodworking project. I like keeping my hands busy and my
-				mind creative.
-			</p>
-			<p>
-				If you're curious about what I'm up to, or just want to see some
-				of my work, feel free to check out my socials. I post there more
-				often and it's a good way to stay in touch.
-			</p>
+			<div class="icon-grid">
+				<div class="icon-row">
+					<a href="https://facebook.com/petrepa" target="_blank"
+						><i class="fa-brands fa-facebook"></i></a
+					>
+					<a href="https://twitter.com/petrepa" target="_blank"
+						><i class="fa-brands fa-x-twitter"></i></a
+					>
+					<a
+						href="https://www.printables.com/@petrepa"
+						target="_blank"><i class="fa-solid fa-print"></i></a
+					>
+					<a
+						href="https://www.reddit.com/user/petrepa"
+						target="_blank"
+						><i class="fa-brands fa-reddit-alien"></i></a
+					>
+					<a href="https://youtube.com/petrepa" target="_blank"
+						><i class="fa-brands fa-youtube"></i></a
+					>
+				</div>
+				<div class="icon-row">
+					<a href="https://instagram.com/petrepa" target="_blank"
+						><i class="fa-brands fa-instagram"></i></a
+					>
+					<a
+						href="https://www.strava.com/athletes/35722278"
+						target="_blank"><i class="fa-brands fa-strava"></i></a
+					>
+					<a href="https://linkedin.com/in/petrepa" target="_blank"
+						><i class="fa-brands fa-linkedin"></i></a
+					>
+					<a href="https://github.com/petrepa" target="_blank"
+						><i class="fa-brands fa-github"></i></a
+					>
+					<a
+						href="mailto:peter.remoy.paulsen@gmail.com"
+						target="_blank"
+						><i class="fa-regular fa-envelope"></i></a
+					>
+				</div>
+			</div>
 
+			<div style="text-align: center;">
+				<p>
+					Hardware engineer at
+					<a href="https://scoutdi.com" target="_blank">ScoutDI</a>
+					 in Norway, with a
+					<a
+						href="https://www.ntnu.no/studier/mtelsys"
+						target="_blank"
+					>
+						Master's in Electronic Systems Design
+					</a>
+					 from NTNU
+				</p>
+				<h3><a href="/about">More about me</a></h3>
+			</div>
 			<section>
 				<h3>My Projects</h3>
 				<ul>

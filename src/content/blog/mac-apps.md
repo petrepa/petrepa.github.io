@@ -1,5 +1,5 @@
 ---
-title: A Few Simple Tools I Made for My Mac
+title: Tools I Made for My Mac
 heroImage: /mac-apps.jpg
 description: Mac menu apps to ease my everyday needs.
 pubDate: 'December 2018'

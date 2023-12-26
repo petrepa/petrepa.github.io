@@ -7,7 +7,7 @@ pubDate: 'December 2023'
 
 ## Finding the Perfect Bike 🕵️‍♂️
 
-After I had a spare Bafang motor, from my [Retrovelo bike](https://petrepa.com/blog/ebikes/), I scoured [Finn.no](https://finn.no) for the ideal bike. My main criterias: disc brakes and affordability. Eventually, on page 9 of Trondheim's listings, I discovered a Kona Minute.
+After I had a spare Bafang motor, from my [Retrovelo bike](https://petrepa.com/blog/retrovelo/), I scoured [Finn.no](https://finn.no) for the ideal bike. My main criterias: disc brakes and affordability. Eventually, on page 9 of Trondheim's listings, I discovered a Kona Minute.
 
 ## Love at First Sight ❤️
 

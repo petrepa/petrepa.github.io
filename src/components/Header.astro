@@ -3,11 +3,10 @@
 ---
 
 <header>
-	<h1>
-		<a style="text-decoration: none; color: rgb(var(--black))" href="/">
-			Peter Remøy Paulsen
-		</a>
-	</h1>
+	<a style="text-decoration: none; color: rgb(var(--black))" href="/">
+		<h1>Peter Remøy Paulsen</h1>
+		<p class="at">@petrepa</p>
+	</a>
 </header>
 
 <style>
@@ -49,6 +48,11 @@
 	.social-links,
 	.social-links a {
 		display: flex;
+	}
+	.at {
+		display: flex;
+		justify-content: center;
+		font-style: italic;
 	}
 	@media (max-width: 720px) {
 		.social-links {

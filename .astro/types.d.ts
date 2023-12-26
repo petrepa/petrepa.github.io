@@ -227,9 +227,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"ebikes.md": {
-	id: "ebikes.md";
-  slug: "ebikes";
+"kona-minute.md": {
+	id: "kona-minute.md";
+  slug: "kona-minute";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -237,6 +237,13 @@ declare module 'astro:content' {
 "mac-apps.md": {
 	id: "mac-apps.md";
   slug: "mac-apps";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"retrovelo.md": {
+	id: "retrovelo.md";
+  slug: "retrovelo";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
