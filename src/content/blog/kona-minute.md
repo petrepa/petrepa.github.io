@@ -6,11 +6,11 @@ description: Transforming a Kona Minute into a perfect cargo eBike
 pubDate: 'December 2023'
 ---
 
-## Finding the Perfect Bike on Finn.no 🕵️‍♂️
+## Finding the Perfect Bike 🕵️‍♂️
 
 After I had a spare Bafang motor, from my [Retrovelo bike](https://petrepa.com/blog/ebikes/), I scoured [Finn.no](https://finn.no) for the ideal bike. My main criterias: disc brakes and affordability. Eventually, on page 9 of Trondheim's listings, I discovered a Kona Minute.
 
-## Love at First Sight with the Kona Minute 🚲❤️
+## Love at First Sight ❤️
 
 Priced at just 1500 NOK, the Kona Minute, a long-tail cargo bike, was a steal. When I saw it in person, its potential was undeniable, despite its janky basket, weak brakes, and unsightly handlebar grips.
 ![Original](https://github.com/petrepa/petrepa.github.io/assets/30476405/a65550cf-93b0-43d0-a8ed-d31aa7d203a4)
@@ -25,9 +25,9 @@ My first mission on it was to [Trondheim Sykkelservice](https://trondheimsykkels
 ![At Trondheim Sykkelservice](https://github.com/petrepa/petrepa.github.io/assets/30476405/e0b0c76a-1377-4830-b3c2-07f1cdac22d1)
 
 
-## Road Testing and Partner's Retrovelo Involvement 🚴‍♂️🚴‍♀️
+## Road Testing 🚴‍♂️
 
-The initial tests with my girlfriend, now riding the [Retrovelo bike](https://petrepa.com/blog/ebikes/). The cargo capacity of the Kona Minute, especially for items like laser-cut storage boxes designed by my girlfriend, was quite the upgrade.
+The cargo capacity of the Kona Minute, especially for items like laser-cut storage boxes designed by my girlfriend, was quite the upgrade.
 ![Laser cut cargo](https://github.com/petrepa/petrepa.github.io/assets/30476405/77c6e458-a346-45d3-a706-04fd7e950da9)
 
 
@@ -40,13 +40,13 @@ Of course, I also added my [plastic bag storage](https://www.printables.com/mode
 
 ![Plastic bag storage](https://github.com/petrepa/petrepa.github.io/assets/30476405/0c23b95a-8c25-4e04-8955-cba9c52080e0)
 
-Eventually, I attached an IKEA Kaosig collapsible box, perfect for everyday items but also collapsible so I could put it flat and carry larger cargo.
+Eventually, I attached an IKEA Kaosig collapsible box, perfect for everyday items but also collapsible so I could put it flat and carry larger cargo on top.
 
 ![IKEA Kaosig Box on Kona Minute](https://github.com/petrepa/petrepa.github.io/assets/30476405/2acb4f65-4f0a-4c52-88d1-7a045fa58914)
 
 ## Addressing Hand Pain and Handlebar Missteps 🤕
 
-After some weeks, hand pain led me to mistakenly replace the ergonomic handlebars with flatter ones. The real issue? The steering wheel was too low, leading to excessive pressure on my hands.
+After some weeks, hand pain led me to mistakenly replace the ergonomic handlebars with flatter ones. The real issue? The steering wheel was too low, leading to excessive pressure on my hands. Too bad I already sold the original handlbars...
 ![Old and new handlebar](https://github.com/petrepa/petrepa.github.io/assets/30476405/211289dd-ef42-4239-9574-151c5c904a29)
 
 
@@ -68,7 +68,7 @@ I also enhanced its versatility with an [Atran Velo AVS](https://atranvelo.com/a
 
 ## Winter Cycling Preparations ❄️🚴‍♂️
 
-With winter approaching, I equipped the bike with Biltema studded tires. Later, after experiencing their limitations, I upgraded to Ice Spiker Pro tires for better grip and safety. I have also fitted some bar mitts to the bike, even though this looks super nørdy. Gotta stay warm!
+With winter approaching, I equipped the bike with [Biltema studded tires](https://www.biltema.no/sykkel-elsykkel/sykkeldeler/sykkeldekk/26/sykkeldekk-pigg-26-54-559-mm-2000037421). Later, after experiencing their limitations, I upgraded to Ice Spiker Pro tires for better grip and safety. I have also fitted some bar mitts to the bike, even though these look super nørdy. Gotta stay warm!
 ![Winter Ready Kona Minute](https://github.com/petrepa/petrepa.github.io/assets/30476405/39a57e3c-6f68-4035-9ba4-1f74e55da98d)
 
 ## Continuous Comfort Adjustments 🛠️
