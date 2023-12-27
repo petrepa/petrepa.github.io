@@ -60,6 +60,10 @@ The Brilliant Dashboard was a sleek, Vue and Flask-based solution that brought l
 
 Our in-house developed Brilliant BI Portal was a game-changer for managing our consultancy resources. Built on a flexible platform, with Django, Vue and various databases, it provided glanceable, user-friendly insights into the company. The portal's crown jewel was the employee booking percentages and available resources, but it also provided an interactive office floorplan, integrating sensor data to display real-time meeting room occupancy. This innovation not only streamlined resource management but also laid the bricks for replacing the cumbersome SQL queries for internal data warehouse management in the future.
 
+[![Brilliant BI Portal](https://github.com/petrepa/petrepa.github.io/assets/30476405/edbcfa36-f0db-43da-8efc-384738df83f6)](https://github.com/petrepa/petrepa.github.io/assets/30476405/44769518-cdf1-4e44-9c77-42b500ea120e
+)
+
+
 
 ### Brilliant People Counter: Counting Steps to Insights 🚶‍♂️
 
