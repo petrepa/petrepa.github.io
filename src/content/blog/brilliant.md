@@ -1,6 +1,6 @@
 ---
 title: My time at Brilliant
-heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/b1be49e7-f844-4002-aba5-4b32041b4592
+heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/9ce173bb-c117-4844-aefb-ef40b076c867
 description: The story behind developing an innovative table tennis tracking system at Brilliant, using Django, Raspberry Pi, and some DIY ingenuity along with other projects.
 pubDate: 'December 2023'
 ---
