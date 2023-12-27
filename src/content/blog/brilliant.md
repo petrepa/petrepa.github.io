@@ -7,7 +7,7 @@ pubDate: 'December 2023'
 
 ## The Genesis of the Idea 🏓
 
-Working at Brilliant, an IT consultancy company, meant finding creative ways to sharpen our skills. It all started with an idle table tennis table and a spark of inspiration from my master's study area [PongDog](https://github.com/jakvah/PongDog). I decided to build my own table tennis tracking system. 
+Working at Brilliant, an IT consultancy company, meant finding creative ways to sharpen our skills. It all started with an idle table tennis table and a spark of inspiration from my master's study area, [PongDog](https://github.com/jakvah/PongDog). I decided to build my own table tennis tracking system. 
 
 ![The setup before the project started](https://github.com/petrepa/petrepa.github.io/assets/30476405/9fba8d1c-dd8d-4616-9938-8b1ec66ae10a)
 
