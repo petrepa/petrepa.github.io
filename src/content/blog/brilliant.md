@@ -46,3 +46,43 @@ What started as a tracking system evolved into a catalyst for engagement. It led
 ![Office Colleagues Engaged in a Game](https://github.com/petrepa/petrepa.github.io/assets/30476405/0588300f-6665-4d73-9e6e-1cdfc364b460)
 
 This project at Brilliant was more than a technical challenge; it was a journey of community building, innovation, and fun. It set the tone for my time at this company.
+
+## Expanding Brilliance: More Innovative Projects at Brilliant
+
+### Brilliant Dashboard: A Glance at the Office Life 🖥️
+
+The Brilliant Dashboard was a sleek, Vue and Flask-based solution that brought life to our office entrance I developed. It displayed a variety of useful information including weather forecasts, daily meeting room plans, toilet room occupancy, nearby bus transit times, and countdowns to significant company events. This digital centerpiece blending technology with everyday convenience for the office life.
+
+![The Brilliant Dashboard in Action](https://github.com/petrepa/petrepa.github.io/assets/30476405/37455229-acd9-4622-9c9a-f266fa9361b9)
+
+### Brilliant BI Portal: Streamlining Resource Management 📊
+
+Our in-house developed Brilliant BI Portal was a game-changer for managing our consultancy resources. Built on a flexible platform, with Django, Vue and various databases, it provided glanceable, user-friendly insights into the company. The portal's crown jewel was the employee booking percentages and available resources, but it also provided an interactive office floorplan, integrating sensor data to display real-time meeting room occupancy. This innovation not only streamlined resource management but also laid the bricks for replacing the cumbersome SQL queries for internal data warehouse management in the future.
+
+
+### Brilliant People Counter: Counting Steps to Insights 🚶‍♂️
+
+The People Counter project was a planned nifty addition to our dashboard, designed to track the flow of people in and out of the office using two laser beams at the entrance. This small project was meant to provided fascinating data on office occupancy trends over weeks and months, turning simple statistics into meaningful insights.
+
+![The People Counter in Action](https://github.com/petrepa/petrepa.github.io/assets/30476405/fdfe4f3e-092c-4c12-97e6-833101fcc308)
+
+
+### Brilliant Door Opener: Convenience at a Click 🚪
+
+Our office's entrance door featured an automated opener, activated from the inside with a button and from the outside with a company keycard. To enhance this, I installed a relay parallel to the opener, integrated into the ceiling, and controlled it through Home Assistant. 
+
+![The Automated Door Opener System](https://github.com/petrepa/petrepa.github.io/assets/30476405/edf145b9-e432-4e68-862e-d3caff8b92a4)
+
+This allowed for example the office administrator to open the door remotely and provided a backup for employees who forgot their keycards.
+
+![Brilliant door demo](https://github.com/petrepa/petrepa.github.io/assets/30476405/3558d274-3de5-461e-838b-0d433d6d75c9)
+
+
+### Home Assistant: The Nerve Center of Office Automation 🌐
+
+I installed Home Assistant to tie all our office automation projects together. It controlled everything from Zigbee sensors on toilet door locks (indicating occupancy) to the newly installed lights during the office renovation. It even managed the projector screen over RF, using a modified Sonoff RF bridge with ESPHome. This centralized control system made some of our everyday operations smoother and more fun.
+
+
+## Conclusion 🔄
+
+These projects at Brilliant weren't just about technical challenges; they were about creating a more interconnected and responsive work environment. Each project brought a unique blend of functionality and fun.
