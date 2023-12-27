@@ -39,7 +39,7 @@ Here is also another part of the GUI, for example the end of match screen:
 Getting some HTML/CSS help from the web guru, Sigve ([@evgis](https://github.com/evgiz))
 ![Web guru Sigve](https://github.com/petrepa/petrepa.github.io/assets/30476405/ccec03b7-43ab-4258-9be2-6df369d3ecb0)
 
-## Transforming Office Culture: Engagement and Fun 🤾‍♂️
+## Office Culture: Engagement and Fun 🤾‍♂️
 
 What started as a tracking system evolved into a catalyst for engagement. It led to regular training sessions and a palpable buzz around the office.
 
@@ -64,7 +64,9 @@ Our in-house developed Brilliant BI Portal was a game-changer for managing our c
 
 The People Counter project was a planned nifty addition to our dashboard, designed to track the flow of people in and out of the office using two laser beams at the entrance. This small project was meant to provided fascinating data on office occupancy trends over weeks and months, turning simple statistics into meaningful insights.
 
-![The People Counter in Action](https://github.com/petrepa/petrepa.github.io/assets/30476405/fdfe4f3e-092c-4c12-97e6-833101fcc308)
+![The People Counter in Development](https://github.com/petrepa/petrepa.github.io/assets/30476405/fdfe4f3e-092c-4c12-97e6-833101fcc308)
+![AI generated conceptt illustration](https://github.com/petrepa/petrepa.github.io/assets/30476405/40e1411e-1b8c-47bf-8d48-bd3b30959b60)
+
 
 
 ### Brilliant Door Opener: Convenience at a Click 🚪
