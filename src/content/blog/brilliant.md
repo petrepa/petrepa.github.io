@@ -23,7 +23,7 @@ This wasn't just a tracker; it was a season-based competition. Each season had i
 ![Season Scorecards Display](https://github.com/petrepa/petrepa.github.io/assets/30476405/b6c0dd00-b421-44e6-8f92-4cd41b6ffdc1)
 Here is also another part of the GUI, for example the end of match screen:
 ![End of Match Screen](https://github.com/petrepa/petrepa.github.io/assets/30476405/b1be49e7-f844-4002-aba5-4b32041b4592)
-Getting some HTML/CSS help from the web guru, Sigve ([@evgis](https://github.com/evgiz))
+Getting some HTML/CSS help from the web guru, Sigve ([@evgiz](https://github.com/evgiz))
 ![Web guru Sigve](https://github.com/petrepa/petrepa.github.io/assets/30476405/ccec03b7-43ab-4258-9be2-6df369d3ecb0)
 
 ## Office Culture: Engagement and Fun 🤾‍♂️
