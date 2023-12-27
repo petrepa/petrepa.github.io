@@ -1,5 +1,5 @@
 ---
-title: My time at Brilliant
+title: My time at [Brilliant](https://brilliant.no/)
 heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/9ce173bb-c117-4844-aefb-ef40b076c867
 description: The story behind developing an innovative table tennis tracking system at Brilliant, using Django, Raspberry Pi, and some DIY ingenuity along with other projects.
 pubDate: 'December 2023'
