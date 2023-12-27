@@ -5,6 +5,7 @@ description: The story behind developing an innovative table tennis tracking sys
 pubDate: 'December 2023'
 ---
 
+# Working at Brilliant
 ## The Genesis of the Idea 🏓
 
 Working at Brilliant, an IT consultancy company, meant finding creative ways to sharpen our skills. It all started with an idle table tennis table and a spark of inspiration from my master's study area, [PongDog](https://github.com/jakvah/PongDog). I decided to build my own table tennis tracking system. 
