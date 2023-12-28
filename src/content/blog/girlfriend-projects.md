@@ -1,8 +1,8 @@
 ---
-title: Crafting Creativity at Home: Our DIY Journey
+title: GF projects ⇒ my projects
 heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/0dbc2f1c-31ae-44e4-8e6a-7217fbd03131
 description: A journey through various DIY projects at home, blending creativity with functionality, from modified laundry baskets to a custom-made sofa lamp.
-pubDate: 'December 2023'
+pubDate: December 28 2023
 ---
 
 # Introduction: Ideas and Skills 🛠️💡
@@ -17,18 +17,17 @@ We transformed our mundane laundry baskets into a statement piece. I crafted a b
 
 # Brainstorming in Style: Glass Greenboard Shelves 🌿📝
 Our office got a functional upgrade with three glass greenboards for brainstorming sessions. I built a custom shelf to house these boards, creating an efficient yet stylish brainstorming hub.
-![📷 Placeholder for Image: The Glass Greenboard Shelf]
-<img width="959" alt="image" src="https://github.com/petrepa/petrepa.github.io/assets/30476405/1e4fdba6-09fe-46c9-bd10-643648a0322b">
+![The Glass Greenboard Shelf](https://github.com/petrepa/petrepa.github.io/assets/30476405/1e4fdba6-09fe-46c9-bd10-643648a0322b)
 
 *[Link to my gilfriends webpage about the project](https://amandalohne.com/Greenboards.html)*
-[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/82dd2188-ede5-4d0c-ac9c-66b651e85811)
+[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/82dd2188-ede5-4d0c-ac9c-66b651e85811)](https://amandalohne.com/Greenboards.html)
 
 # IKEA Cabinet Reimagined: Joining the IKEAGreenHouseClub 🌱
 An ordinary IKEA display cabinet transformed into a thriving plant cabinet, earning us a spot in the IKEAGreenHouseClub. This project was a mix of redesign and green-thumb enthusiasm.
 For this project we've added fans to circulate the air, grow lights controlled and warm/cold lights controlled by a Shelly RGBW2 and we've also added humidity control through the [ESPHome Diffuser](https://github.com/petrepa/ESPHome-Diffuser).
 
 *[Link to my gilfriends webpage about the project](https://amandalohne.com/Drivhus.html)*
-[![]([https://github.com/petrepa/petrepa.github.io/assets/30476405/82dd2188-ede5-4d0c-ac9c-66b651e85811](https://github.com/petrepa/petrepa.github.io/assets/30476405/58245dde-aef6-4074-89a3-944a827e17d9))
+[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/58245dde-aef6-4074-89a3-944a827e17d9)](https://amandalohne.com/Drivhus.html)
 
 # Entrance Wardrobe Revamp: Stealth and Functionality 🚪
 We reimagined our IKEA Elvarli wardrobe to make it fit in more with our overall aestetic.
@@ -44,16 +43,13 @@ We reimagined our IKEA Elvarli wardrobe to make it fit in more with our overall 
 ## Crafted custom doors to hide our recycling area
 ![Custom doors for IKEA Elvarli](https://github.com/petrepa/petrepa.github.io/assets/30476405/af0ae6b6-5b16-4dc2-81f9-9c6eb67542c4)
 
-
 # Kitchen Drawer Inserts: Customized to Perfection 🍴
 In our kitchen, I created custom drawer ([using this 3D model project](https://www.thingiverse.com/thing:3827538)) inserts to fit our unique assortment of kitchen tools, ensuring everything has its perfect place.
 ![The Custom Kitchen Drawer Inserts](https://github.com/petrepa/petrepa.github.io/assets/30476405/0707f9ac-5ea0-4cd3-9247-d098db502d70)
 
-
-# The Viral Sofa TikTok Lamp 💡
+# The Viral TikTok Sofa Lamp 💡
 Inspired by a [viral TikTok lamp](https://www.tiktok.com/@freakyfundays/video/7164439405531352326), we crafted our own version. Starting with an IKEA laundry rack and a vintage lamp, we added a couple of layers with spray-painted brown finish and brass mounting details.
 ![Our Custom-Made Sofa Lamp](https://github.com/petrepa/petrepa.github.io/assets/30476405/2ddcf78d-8689-49f6-a172-7be6d5d2bc5b)
-
 
 # Conclusion 🏡
 Each project in our home is a story of creativity, collaboration, frustration and love for DIY. It's not just about making things; it's about creating a space that truly feels like ours.
