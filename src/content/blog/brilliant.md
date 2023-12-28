@@ -1,8 +1,8 @@
 ---
-title: My time at [Brilliant](https://brilliant.no/)
+title: My time at Brilliant
 heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/9ce173bb-c117-4844-aefb-ef40b076c867
 description: The story behind developing an innovative table tennis tracking system at Brilliant, using Django, Raspberry Pi, and some DIY ingenuity along with other projects.
-pubDate: 'December 2023'
+pubDate: 'December 26 2023'
 ---
 
 Working at Brilliant, an IT consultancy company, meant finding creative ways to sharpen our skills. It all started with an idle table tennis table and a spark of inspiration from my master's study area, [PongDog](https://github.com/jakvah/PongDog). I decided to build my own table tennis tracking system. 
