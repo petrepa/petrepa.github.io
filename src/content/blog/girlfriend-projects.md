@@ -9,14 +9,14 @@ pubDate: December 28 2023
 Living with a creative soul like my girlfriend means our home is always buzzing with new project ideas, for better or for worse. From functional redesigns to aesthetic innovations, here's a peek into our world of DIY.
 
 # Laundry Basket Makeover: Function Meets Aesthetics 🧺
-We transformed our mundane laundry baskets into a statement piece. I crafted a bespoke bamboo table to elegantly conceal them, combining practicality with style.
+We modified our laundry baskets to fit inbetween the wall and the sink by shortening its width a bit. We then crafted a bespoke bamboo table, from two second hand [IKEA RÅGRUND](https://www.ikea.com/no/no/p/ragrund-stol-m-handklehenger-bambus-90253074/), to elegantly conceal them, combining practicality with style.
 ![The Bamboo Table and Laundry Baskets](https://github.com/petrepa/petrepa.github.io/assets/30476405/c117e169-a7e8-47c3-a169-d4297b357734)
 *[Link to my gilfriends webpage about the project](https://amandalohne.com/Skittentoy.html)*
 [![](https://github.com/petrepa/petrepa.github.io/assets/30476405/93768473-d1e7-467f-8fd1-d71ca0ab2285)](https://amandalohne.com/Skittentoy.html)
 
 
 # Brainstorming in Style: Glass Greenboard Shelves 🌿📝
-Our office got a functional upgrade with three glass greenboards for brainstorming sessions. I built a custom shelf to house these boards, creating an efficient yet stylish brainstorming hub.
+Our office got a functional upgrade with three glass greenboards for brainstorming sessions. We built a custom shelf to house these boards, creating an efficient yet stylish brainstorming hub.
 ![The Glass Greenboard Shelf](https://github.com/petrepa/petrepa.github.io/assets/30476405/1e4fdba6-09fe-46c9-bd10-643648a0322b)
 
 *[Link to my gilfriends webpage about the project](https://amandalohne.com/Greenboards.html)*
@@ -44,7 +44,7 @@ We reimagined our IKEA Elvarli wardrobe to make it fit in more with our overall 
 ![Custom doors for IKEA Elvarli](https://github.com/petrepa/petrepa.github.io/assets/30476405/af0ae6b6-5b16-4dc2-81f9-9c6eb67542c4)
 
 # Kitchen Drawer Inserts: Customized to Perfection 🍴
-In our kitchen, I created custom drawer ([using this 3D model project](https://www.thingiverse.com/thing:3827538)) inserts to fit our unique assortment of kitchen tools, ensuring everything has its perfect place.
+In our kitchen, we created custom drawer ([using this 3D model project](https://www.thingiverse.com/thing:3827538)) inserts to fit our unique assortment of kitchen tools, ensuring everything has its perfect place.
 ![The Custom Kitchen Drawer Inserts](https://github.com/petrepa/petrepa.github.io/assets/30476405/0707f9ac-5ea0-4cd3-9247-d098db502d70)
 
 # The Viral TikTok Sofa Lamp 💡
