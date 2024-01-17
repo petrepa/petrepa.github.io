@@ -45,3 +45,15 @@ As the PLA printed parts of the prototype start to sag, I'm now revisiting my in
 ![Fusion360 Design of the New Holder](https://github.com/petrepa/petrepa.github.io/assets/30476405/3f1a5a99-59c3-44b9-a713-d544a991a8ec)
 
 Hopefully I'll find the time to have this cut and mounted soon. I'll update this post when I have something new to show!
+For now, you can find the current project files here:
+
+### DXF files
+- [Back Part DXF](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/ZPTBHLCV%20Back%20Part.dxf)
+- [Bottom Part DXF](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/ZPTBHLCV%20Bottom%20Part.dxf)
+- [Front Part DXF](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/ZPTBHLCV%20Front%20Part.dxf)
+- [Middle Part DXF](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/ZPTBHLCV%20Middle%20Part.dxf)
+- [Top Part DXF](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/ZPTBHLCV%20Top%20Part.dxf)
+
+### Design files
+- [Fusion 360 project](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/Zip%20Ties%20Peg%20Board%20Holder%20Laser%20Cut%20Version%20v5.f3d)
+- [STEP file](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/Zip%20Ties%20Peg%20Board%20Holder%20Laser%20Cut%20Version%20v5.step)
