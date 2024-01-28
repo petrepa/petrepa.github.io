@@ -44,7 +44,7 @@ As the PLA printed parts of the prototype start to sag, I'm now revisiting my in
 
 ![Fusion360 Design of the New Holder](https://github.com/petrepa/petrepa.github.io/assets/30476405/3f1a5a99-59c3-44b9-a713-d544a991a8ec)
 
-I finally took the time to cut the things at [Omega Verksted](https://omegav.no) ![Cutter in action](https://github.com/petrepa/petrepa.github.io/assets/30476405/7d58d6a7-2c43-45e6-b9dd-d59555cd362a)
+I finally took the time to cut the things at [Omega Verksted](https://omegav.no). I also got to test [Deepnest](https://deepnest.io/) to optimize the cut pattern. ![Cutter in action](https://github.com/petrepa/petrepa.github.io/assets/30476405/7d58d6a7-2c43-45e6-b9dd-d59555cd362a)
 
 Here the new version is compared to the protoype.
 ![Prototype vs final version](https://github.com/petrepa/petrepa.github.io/assets/30476405/72e272b9-2f6a-4702-bda1-1e3987b5f745)
@@ -61,5 +61,5 @@ And finally up on the wall! ![New version mounted](https://github.com/petrepa/pe
 - [Top Part DXF](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/ZPTBHLCV%20Top%20Part.dxf)
 
 ### Design files
-- [Fusion 360 project](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/Zip%20Ties%20Peg%20Board%20Holder%20Laser%20Cut%20Version%20v7.f3d)
-- [STEP file](https://github.com/petrepa/petrepa.github.io/blob/zip-tie-holder/public/zip-tie-holder/Zip%20Ties%20Peg%20Board%20Holder%20Laser%20Cut%20Version%20v7.step)
+- [Fusion 360 project](https://github.com/petrepa/petrepa.github.io/blob/main/public/zip-tie-holder/Zip%20Ties%20Peg%20Board%20Holder%20Laser%20Cut%20Version%20v7.f3d)
+- [STEP file](https://github.com/petrepa/petrepa.github.io/blob/main/public/zip-tie-holder/Zip%20Ties%20Peg%20Board%20Holder%20Laser%20Cut%20Version%20v7.step)
