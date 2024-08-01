@@ -1,16 +1,15 @@
 ---
 title: 'Analyzing Our Quiz Performance: A Fun Web Development Project'
-heroImage: https://github.com/user-attachments/assets/dddbb9d4-3ee8-4e13-b707-bb8eda7befc3
+heroImage: https://github.com/user-attachments/assets/d5a20a2c-92f9-4489-9808-39c89ffd01c7
 description: Web data visualization for quiz performance analysis
 pubDate: 'August 1 2024'
 ---
-
 
 This spring (2024), my friends and I took part in a quiz competition at Quizkverna. As a on and off web developer, I saw an opportunity to combine coding with my enthusiasm for the quizze. I gathered some data throughout the season in a notion table and created a simple static HTML page to analyze the data we gathered. This project helped me practice my web development and data visualisation skills.
 
 ### Inspiration 💡
 
-I think the idea came from seeing a funny webpage called [PoopLog](https://nick-barth.com/pooplog/). The creator used amusing data abouyt his poop to practice his data visualization skills. While his data was much more funny than mine, the concept inspired me to use our quiz data similarly. The resul can be fount here: [KVENNJEGUTANE vårsesongen 2024](petrepa.com/kvennjegutane)
+I think the idea came from seeing a funny webpage called [PoopLog](https://nick-barth.com/pooplog/). The creator used amusing data abouyt his poop to practice his data visualization skills. While his data was much more funny than mine, the concept inspired me to use our quiz data similarly. The result can be found here: [KVENNJEGUTANE vårsesongen 2024](petrepa.com/kvennjegutane)
 
 ### Building the Webpage 🛠️
 
