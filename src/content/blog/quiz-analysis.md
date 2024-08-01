@@ -1,6 +1,6 @@
 ---
-title: Analyzing Our Quiz Performance: A Fun Web Development Project
-heroImage: https://github.com/petrepa/petrepa.github.io/assets/30476405/28458749-7088-44a2-9c46-1ab429bf0a94
+title: 'Analyzing Our Quiz Performance: A Fun Web Development Project'
+heroImage: https://github.com/user-attachments/assets/dddbb9d4-3ee8-4e13-b707-bb8eda7befc3
 description: Web data visualization for quiz performance analysis
 pubDate: 'August 1 2024'
 ---
