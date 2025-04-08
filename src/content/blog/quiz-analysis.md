@@ -9,7 +9,7 @@ This spring (2024), my friends and I took part in a quiz competition at Quizkver
 
 ### Inspiration 💡
 
-I think the idea came from seeing a funny webpage called [PoopLog](https://nick-barth.com/pooplog/). The creator used amusing data abouyt his poop to practice his data visualization skills. While his data was much more funny than mine, the concept inspired me to use our quiz data similarly. The result can be found here: [KVENNJEGUTANE vårsesongen 2024](petrepa.com/kvennjegutane)
+I think the idea came from seeing a funny webpage called [PoopLog](https://nick-barth.com/pooplog/). The creator used amusing data abouyt his poop to practice his data visualization skills. While his data was much more funny than mine, the concept inspired me to use our quiz data similarly. The result can be found here: [KVENNJEGUTANE vårsesongen 2024](https://petrepa.com/kvennjegutane/)
 
 ### Building the Webpage 🛠️
 
