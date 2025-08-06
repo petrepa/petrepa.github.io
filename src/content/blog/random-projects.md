@@ -1,25 +1,28 @@
 ---
-title: A Collection of Random Projects
+title: Random Projects Showcase
 heroImage: [📷 Placeholder for Image: Assorted DIY Projects]
-description: A showcase of various projects
+description: A showcase lots of random projects up until 2024
 pubDate: '21 January 2024'
 ---
 
 # Introduction: Random Projects, Big Satisfaction 🛠️
 
-Not every project needs to be a grand affair. Sometimes, it's the small, practical solutions that bring the most satisfaction. Here's a glimpse into some of my mini-projects.
+Not every project needs to be a grand affair. Sometimes, it's the small and practical solutions that you quickly build day-to-day that can give the most joy. Here's a glimpse into some of my mini-projects in 2023.
 
 ## Custom 3D Printed Storage Case 📦
 
-With some leftover wood and a need for organization, I crafted a storage case to fit under my 3D printer cabinet. It's a simple drawer, but with a personal touch using 3D printed components and metal rails. Functional and just right for storing filaments and tools.
+With some leftover wood and a need for organization, I crafted a storage case to fit under my 3D printer cabinet. It's a simple drawer, but I also added some 3D printed components and metal rails to finish it off and cover the chipboard. Functional and just right for storing filaments and related 3D printer tools.
 
-![📷 Placeholder for Image: The 3D Printed Storage Case]
+![PXL_20230120_165916869](https://github.com/user-attachments/assets/703daed4-366f-4421-a659-cfe66460ff17)
+
+![PXL_20230120_170218756](https://github.com/user-attachments/assets/c0818833-2abd-4830-9a18-3ac32f1de24f)
 
 ## Belt Bag for Nails 🔨
 
-During the summer of 2023, while helping my dad build his 'naust', the need for a handy nail storage solution arose. I turned to sewing for the first time, repurposing an old pair of pants into a useful belt bag for nails. It's not haute couture, but it did the job perfectly.
+During the summer of 2023, while helping my dad build his 'naust', I needed a way to store all of the nails. I turned to sewing for the first time, repurposing an old pair of pants into a useful belt bag for nails. It's not pretty, but for a first sewing project, it was fun and  did the job perfectly.
 
-![📷 Placeholder for Image: The DIY Belt Bag]
+![PXL_20230715_085105187 MP-COLLAGE](https://github.com/user-attachments/assets/e4b36368-e77a-4310-acf6-adcccde08799)
+
 
 ## The Evolution of My Smart Mirror 🪞
 
