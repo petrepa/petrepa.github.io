@@ -1,0 +1,30 @@
+media:
+  - name: media
+    label: Media
+    input: public
+    output: /media
+    path: /media
+
+content:
+  - name: blog
+    label: Blog Posts
+    type: collection
+    path: src/content/blog
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: pubDate
+        label: Publication Date
+        type: date
+      - name: description
+        label: Description
+        type: string
+      - name: moreInfoLink
+        label: More Info Link
+        type: url
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: heroImage
+        label: Heroimage
+        type: image
+        description: Image used as cover
