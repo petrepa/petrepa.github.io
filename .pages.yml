@@ -27,4 +27,7 @@ content:
       - name: heroImage
         label: Heroimage
         type: image
-        description: Image used as cover
+        description: Image used as cover        
+      - name: body
+        label: Body
+        type: rich-text
