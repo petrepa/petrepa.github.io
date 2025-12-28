@@ -11,23 +11,23 @@ Living with a creative soul like my girlfriend means our home is always buzzing 
 # Laundry Basket Makeover: Function Meets Aesthetics 🧺
 We modified our laundry baskets to fit inbetween the wall and the sink by shortening its width a bit. We then crafted a bespoke bamboo table, from two second hand [IKEA RÅGRUND](https://www.ikea.com/no/no/p/ragrund-stol-m-handklehenger-bambus-90253074/), to elegantly conceal them, combining practicality with style.
 ![The Bamboo Table and Laundry Baskets](https://github.com/petrepa/petrepa.github.io/assets/30476405/c117e169-a7e8-47c3-a169-d4297b357734)
-*[Link to my gilfriends webpage about the project](https://amandalohne.com/Skittentoy.html)*
-[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/93768473-d1e7-467f-8fd1-d71ca0ab2285)](https://amandalohne.com/Skittentoy.html)
+*[Link to my gilfriends webpage about the project](https://amandalohne.com/projects/laundry_basket/)*
+[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/93768473-d1e7-467f-8fd1-d71ca0ab2285)](https://amandalohne.com/projects/laundry_basket/)
 
 
 # Brainstorming in Style: Glass Greenboard Shelves 🌿📝
 Our office got a functional upgrade with three glass greenboards for brainstorming sessions. We built a custom shelf to house these boards, creating an efficient yet stylish brainstorming hub.
 ![The Glass Greenboard Shelf](https://github.com/petrepa/petrepa.github.io/assets/30476405/1e4fdba6-09fe-46c9-bd10-643648a0322b)
 
-*[Link to my gilfriends webpage about the project](https://amandalohne.com/Greenboards.html)*
-[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/82dd2188-ede5-4d0c-ac9c-66b651e85811)](https://amandalohne.com/Greenboards.html)
+*[Link to my gilfriends webpage about the project](https://amandalohne.com/projects/greenboards/)*
+[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/82dd2188-ede5-4d0c-ac9c-66b651e85811)](https://amandalohne.com/projects/greenboards/)
 
 # IKEA Cabinet Reimagined: Joining the IKEAGreenHouseClub 🌱
 An ordinary IKEA display cabinet transformed into a thriving plant cabinet, earning us a spot in the IKEAGreenHouseClub. This project was a mix of redesign and green-thumb enthusiasm.
 For this project we've added fans to circulate the air, grow lights controlled and warm/cold lights controlled by a Shelly RGBW2 and we've also added humidity control through the [ESPHome Diffuser](https://github.com/petrepa/ESPHome-Diffuser).
 
-*[Link to my gilfriends webpage about the project](https://amandalohne.com/Drivhus.html)*
-[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/58245dde-aef6-4074-89a3-944a827e17d9)](https://amandalohne.com/Drivhus.html)
+*[Link to my gilfriends webpage about the project](https://amandalohne.com/projects/plant_cabinet/)*
+[![](https://github.com/petrepa/petrepa.github.io/assets/30476405/58245dde-aef6-4074-89a3-944a827e17d9)](https://amandalohne.com/projects/plant_cabinet/)
 
 # Entrance Wardrobe Revamp: Stealth and Functionality 🚪
 We reimagined our IKEA Elvarli wardrobe to make it fit in more with our overall aestetic.
@@ -50,6 +50,3 @@ In our kitchen, we created custom drawer ([using this 3D model project](https://
 # The Viral TikTok Sofa Lamp 💡
 Inspired by a [viral TikTok lamp](https://www.tiktok.com/@freakyfundays/video/7164439405531352326), we crafted our own version. Starting with an IKEA laundry rack and a vintage lamp, we added a couple of layers with spray-painted brown finish and brass mounting details.
 ![Our Custom-Made Sofa Lamp](https://github.com/petrepa/petrepa.github.io/assets/30476405/2ddcf78d-8689-49f6-a172-7be6d5d2bc5b)
-
-# Conclusion 🏡
-Each project in our home is a story of creativity, collaboration, frustration and love for DIY. It's not just about making things; it's about creating a space that truly feels like ours.
