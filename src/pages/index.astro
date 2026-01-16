@@ -205,7 +205,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<img src={post.data.heroImage} alt="" />
+										<img src={post.data.heroImage} alt="" loading="lazy" />
 										<h4 class="title">{post.data.title}</h4>
 										<p class="date">
 											<FormattedDate
@@ -215,7 +215,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 									</a>
 								) : (
 									<a href={`/blog/${post.slug}/`}>
-										<img src={post.data.heroImage} alt="" />
+										<img src={post.data.heroImage} alt="" loading="lazy" />
 										<h4 class="title">{post.data.title}</h4>
 										<p class="date">
 											<FormattedDate
@@ -249,6 +249,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 													.heroImage
 											}
 											alt=""
+											loading="lazy"
 										/>
 										<h4 class="title">
 											{honourableMentions.data.title}
@@ -279,6 +280,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 													.heroImage
 											}
 											alt=""
+											loading="lazy"
 										/>
 										<h4 class="title">
 											{honourableMentions.data.title}
@@ -313,6 +315,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 										<img
 											src={ntnuRelated.data.heroImage}
 											alt=""
+											loading="lazy"
 										/>
 										<h4 class="title">
 											{ntnuRelated.data.title}
@@ -332,6 +335,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 										<img
 											src={ntnuRelated.data.heroImage}
 											alt=""
+											loading="lazy"
 										/>
 										<h4 class="title">
 											{ntnuRelated.data.title}
