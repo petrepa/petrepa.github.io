@@ -14,6 +14,19 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = "/SCR-20231226-rtzh.jpeg" } = Astro.props;
 ---
 
+<!-- Theme detection script (runs before CSS to prevent flash) -->
+<script is:inline>
+	(function() {
+		const storedTheme = localStorage.getItem('theme');
+		const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+		// Default is dark mode (no attribute needed)
+		// Only set light mode if explicitly stored or system prefers light
+		if (storedTheme === 'light' || (!storedTheme && !systemPrefersDark)) {
+			document.documentElement.setAttribute('data-theme', 'light');
+		}
+	})();
+</script>
+
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
