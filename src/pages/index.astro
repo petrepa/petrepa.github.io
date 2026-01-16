@@ -17,6 +17,15 @@ const honourableMentions = (await getCollection("honourableMentions")).sort(
 const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+// Helper to create optimized thumbnail URL via wsrv.nl
+function getThumbnailUrl(imageUrl: string | undefined): string {
+	if (!imageUrl) return "";
+	// Skip local images (they don't need proxy)
+	if (imageUrl.startsWith("/")) return imageUrl;
+	// Use wsrv.nl to resize and convert to webp (2x display size for retina)
+	return `https://wsrv.nl/?url=${encodeURIComponent(imageUrl)}&w=960&h=640&fit=cover&output=webp&q=85`;
+}
 ---
 
 <!doctype html>
@@ -205,7 +214,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<img src={post.data.heroImage} alt="" loading="lazy" />
+										<img src={getThumbnailUrl(post.data.heroImage)} alt="" width={480} height={320} loading="lazy" decoding="async" />
 										<h4 class="title">{post.data.title}</h4>
 										<p class="date">
 											<FormattedDate
@@ -215,7 +224,7 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 									</a>
 								) : (
 									<a href={`/blog/${post.slug}/`}>
-										<img src={post.data.heroImage} alt="" loading="lazy" />
+										<img src={getThumbnailUrl(post.data.heroImage)} alt="" width={480} height={320} loading="lazy" decoding="async" />
 										<h4 class="title">{post.data.title}</h4>
 										<p class="date">
 											<FormattedDate
@@ -244,12 +253,12 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 										rel="noopener noreferrer"
 									>
 										<img
-											src={
-												honourableMentions.data
-													.heroImage
-											}
+											src={getThumbnailUrl(honourableMentions.data.heroImage)}
 											alt=""
+											width={480}
+											height={320}
 											loading="lazy"
+											decoding="async"
 										/>
 										<h4 class="title">
 											{honourableMentions.data.title}
@@ -275,12 +284,12 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 										href={`/blog/${honourableMentions.slug}/`}
 									>
 										<img
-											src={
-												honourableMentions.data
-													.heroImage
-											}
+											src={getThumbnailUrl(honourableMentions.data.heroImage)}
 											alt=""
+											width={480}
+											height={320}
 											loading="lazy"
+											decoding="async"
 										/>
 										<h4 class="title">
 											{honourableMentions.data.title}
@@ -313,9 +322,12 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 										rel="noopener noreferrer"
 									>
 										<img
-											src={ntnuRelated.data.heroImage}
+											src={getThumbnailUrl(ntnuRelated.data.heroImage)}
 											alt=""
+											width={480}
+											height={320}
 											loading="lazy"
+											decoding="async"
 										/>
 										<h4 class="title">
 											{ntnuRelated.data.title}
@@ -333,9 +345,12 @@ const ntnuRelated = (await getCollection("ntnuRelated")).sort(
 								) : (
 									<a href={`/blog/${ntnuRelated.slug}/`}>
 										<img
-											src={ntnuRelated.data.heroImage}
+											src={getThumbnailUrl(ntnuRelated.data.heroImage)}
 											alt=""
+											width={480}
+											height={320}
 											loading="lazy"
+											decoding="async"
 										/>
 										<h4 class="title">
 											{ntnuRelated.data.title}
