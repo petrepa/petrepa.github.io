@@ -1,7 +1,8 @@
+import { glob } from 'astro/loaders';
 import { defineCollection, z } from 'astro:content';
 
 const blog = defineCollection({
-	type: 'content',
+	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
 	// Type-check frontmatter using a schema
 	schema: z.object({
 		title: z.string(),
@@ -15,12 +16,10 @@ const blog = defineCollection({
 });
 
 const honourableMentions = defineCollection({
-	type: 'content',
-	// Type-check frontmatter using a schema
+	loader: glob({ base: './src/content/honourableMentions', pattern: '**/*.{md,mdx}' }),
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		// Transform string to Date object
 		pubDate: z.coerce.date(),
 		heroImage: z.string().optional(),
 		moreInfoLink: z.string().optional(),
@@ -28,12 +27,10 @@ const honourableMentions = defineCollection({
 });
 
 const ntnuRelated = defineCollection({
-	type: 'content',
-	// Type-check frontmatter using a schema
+	loader: glob({ base: './src/content/ntnuRelated', pattern: '**/*.{md,mdx}' }),
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		// Transform string to Date object
 		pubDate: z.coerce.date(),
 		heroImage: z.string().optional(),
 		moreInfoLink: z.string().optional(),

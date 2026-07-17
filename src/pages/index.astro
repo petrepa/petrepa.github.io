@@ -290,7 +290,7 @@ function getThumbnailUrl(imageUrl: string | undefined): string {
 										</p>
 									</a>
 								) : (
-									<a href={`/blog/${post.slug}/`}>
+									<a href={`/blog/${post.id}/`}>
 										<img src={getThumbnailUrl(post.data.heroImage)} alt="" width={480} height={320} loading="lazy" decoding="async" />
 										<h4 class="title">{post.data.title}</h4>
 										<p class="date">
@@ -348,7 +348,7 @@ function getThumbnailUrl(imageUrl: string | undefined): string {
 									</a>
 								) : (
 									<a
-										href={`/blog/${honourableMentions.slug}/`}
+										href={`/blog/${honourableMentions.id}/`}
 									>
 										<img
 											src={getThumbnailUrl(honourableMentions.data.heroImage)}
@@ -410,7 +410,7 @@ function getThumbnailUrl(imageUrl: string | undefined): string {
 										</p>
 									</a>
 								) : (
-									<a href={`/blog/${ntnuRelated.slug}/`}>
+									<a href={`/blog/${ntnuRelated.id}/`}>
 										<img
 											src={getThumbnailUrl(ntnuRelated.data.heroImage)}
 											alt=""
