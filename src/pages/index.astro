@@ -5,6 +5,9 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import { getProjects } from "../lib/projects";
+
+const { intro, projects } = await getProjects();
 
 const posts = (await getCollection("blog")).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -118,6 +121,43 @@ function getThumbnailUrl(imageUrl: string | undefined): string {
 				font-size: 1.5em; /* Icon size */
 			}
 
+			/* Compact side-projects list — distinct from the big image cards */
+			.side-projects .side-projects-intro {
+				margin: 0 0 1.25em 0;
+				color: rgb(var(--gray));
+			}
+			ul.projects-list {
+				display: block;
+				gap: 0;
+			}
+			ul.projects-list li {
+				width: 100%;
+				margin-bottom: 0.9em;
+			}
+			ul.projects-list li a {
+				display: grid;
+				grid-template-columns: auto 1fr;
+				column-gap: 0.4em;
+				align-items: baseline;
+			}
+			ul.projects-list .project-name {
+				font-weight: 700;
+				color: rgb(var(--black));
+			}
+			ul.projects-list .project-arrow {
+				color: rgb(var(--gray));
+				font-size: 0.85em;
+			}
+			ul.projects-list .project-desc {
+				grid-column: 1 / -1;
+				color: rgb(var(--gray));
+				font-size: 0.95em;
+			}
+			ul.projects-list li a:hover .project-name,
+			ul.projects-list li a:hover .project-arrow {
+				color: rgb(var(--accent));
+			}
+
 			@media (max-width: 720px) {
 				ul {
 					gap: 0.5em;
@@ -202,6 +242,33 @@ function getThumbnailUrl(imageUrl: string | undefined): string {
 				</p>
 				<h3><a href="/about">More about me</a></h3>
 			</div>
+			{
+				projects.length > 0 && (
+					<section class="side-projects">
+						<h3>Other Projects</h3>
+						{intro && <p class="side-projects-intro">{intro}</p>}
+						<ul class="projects-list">
+							{projects.map((project) => (
+								<li>
+									<a
+										href={project.url}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<span class="project-name">{project.title}</span>
+										<span class="project-arrow">↗</span>
+										{project.description && (
+											<span class="project-desc">
+												{project.description}
+											</span>
+										)}
+									</a>
+								</li>
+							))}
+						</ul>
+					</section>
+				)
+			}
 			<section>
 				<h3>My Projects</h3>
 				<ul>

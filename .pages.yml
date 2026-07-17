@@ -31,3 +31,33 @@ content:
       - name: body
         label: Body
         type: rich-text
+
+  - name: projects
+    label: Side Projects
+    type: file
+    path: src/data/projects.json
+    fields:
+      - name: intro
+        label: Section intro
+        type: string
+        description: Short line shown under the "Other Projects" heading
+      - name: overrides
+        label: Per-repo overrides
+        type: object
+        list: true
+        description: >-
+          Optional. New repos appear automatically; add an entry only to tweak
+          one. "Repo name" must match the GitHub repo exactly.
+        fields:
+          - name: repo
+            label: Repo name (exact)
+            type: string
+          - name: hide
+            label: Hide from list
+            type: boolean
+          - name: pin
+            label: Pin order (lower = higher)
+            type: number
+          - name: description
+            label: Custom description
+            type: string
